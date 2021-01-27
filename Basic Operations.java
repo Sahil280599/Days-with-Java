@@ -6,8 +6,12 @@ public class Main {
 	// write your code here
         int num1 = 6;
         int num2 = 12;
-        int num3 = 24;
-        int sum = num1+num2+num3;
+	    //performing all basic operations 
+        int sum = num1+num2;
+      //int sum = num1*num2;
+     //int sum = num1/num2;
+    //int sum = num1-num2;
+	   
         System.out.print("the sum is = ");
         System.out.println(sum);
     }
