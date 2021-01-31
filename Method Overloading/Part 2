@@ -1,0 +1,20 @@
+package com.company;
+
+// if we dont want anyrthing return
+public class Method_overloading {
+    static void change(int a){
+        a=98;
+    }
+    static void telljoke(){
+        System.out.println("fuck");
+
+    }
+
+    public static void main(String[] args) {
+        int [] marks = {52,73,77,89,98,94};
+        int x=45;//isne apni copy dedi upar iska kuch nahi ukhdega 
+        change(x);
+        System.out.println(x);
+
+
+// the value will print 45 only .. there wont be any change 
