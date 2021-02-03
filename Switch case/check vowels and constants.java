@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code
-        char ch='z';
+        char ch='z'; // enter the input
         switch (ch) {
             case 'a':
             case 'e':
